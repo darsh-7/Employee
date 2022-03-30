@@ -17,8 +17,8 @@
                 Console.WriteLine("Enter employee id");
                 employees[i].id = ask_for_int();
                 employees[i].ChangeJob();
-                Console.WriteLine("Enter employee salary (for dufalt value enter \"-1\"");
-                employees[i].salary = ask_for_double();
+                //Console.WriteLine("Enter employee salary (for dufalt value enter \"-1\"");
+                //employees[i].salary = ask_for_double();
                 Console.WriteLine("Enter employee working bonus Hours");
                 employees[i].workingbonushours = ask_for_double();
             }
